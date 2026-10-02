@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+}
+
+h1, h3 {
+	color: rgba(84, 87, 117, 1); /* dusty grape */
+}
+
+a {
+	color: rgba(113, 143, 148, 1); /* slate gray */ 
