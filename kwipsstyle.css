@@ -1,10 +1,54 @@
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('BebasNeue-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 body {
   font-family: sans-serif;
+  background-color: #1E2019;
 }
 
-h1, h3 {
-	color: rgba(84, 87, 117, 1); /* dusty grape */
+section {
+	background-color: white;
+	max-width: 40em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:.75em;
+	border-radius: 35px;
+	box-shadow: 4px 8px 0px rgba(168, 8, 116, 1);
 }
 
-a {
-	color: rgba(113, 143, 148, 1); /* slate gray */ 
+hr {
+	border: none;
+}
+
+main {
+	padding-bottom: 1em;
+}
+
+h1, h2 {
+	color: #A80874;
+	font-family:'BebasNeue', serif;
+}
+
+h1 {
+	font-size: 3.5em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: -0.25em;
+	margin-top: 0.5em;
+}
+
+ul {
+	margin-top: 0.4em;
+}
